@@ -1,0 +1,49 @@
+h2 {
+  margin-bottom: 0;
+  color: #645cff;
+  text-transform: uppercase;
+}
+nav {
+  height: 5rem;
+  padding: 0 2rem;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+}
+.nav-link {
+  text-transform: capitalize;
+  color: #222;
+  font-size: 1.25rem;
+  /* margin-left: 0.5rem; */
+}
+.container {
+  border: 5px solid red;
+  margin: 3rem;
+}
+.box {
+  width: 125px;
+  height: 125px;
+}
+.box-1 {
+  background: blue;
+}
+.box-2 {
+  background: green;
+}
+.box-3 {
+  background: yellow;
+}
+.box-4 {
+  background: brown;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 2rem;
+}
